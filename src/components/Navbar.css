@@ -1,0 +1,119 @@
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar{
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1000;
+
+    background:rgba(255,255,255,.95);
+
+    backdrop-filter:blur(12px);
+
+    box-shadow:0 2px 15px rgba(0,0,0,.06);
+}
+
+/* ===========================
+   CONTAINER
+=========================== */
+
+.navbar-container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    height:80px;
+
+}
+
+/* ===========================
+   LOGO
+=========================== */
+
+.logo{
+
+    text-decoration:none;
+
+    font-size:28px;
+
+    font-weight:700;
+
+    color:var(--text);
+
+    letter-spacing:.5px;
+
+}
+
+.logo span{
+
+    color:var(--primary);
+
+}
+
+/* ===========================
+   NAV LINKS
+=========================== */
+
+.nav-links{
+
+    list-style:none;
+
+    display:flex;
+
+    gap:35px;
+
+}
+
+.nav-links a{
+
+    text-decoration:none;
+
+    color:var(--text);
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+.nav-links a:hover{
+
+    color:var(--primary);
+
+}
+
+/* ===========================
+   BUTTON
+=========================== */
+
+.navbar .btn{
+
+    padding:12px 24px;
+
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media(max-width:900px){
+
+    .nav-links{
+
+        display:none;
+
+    }
+
+    .navbar .btn{
+
+        display:none;
+
+    }
+
+}

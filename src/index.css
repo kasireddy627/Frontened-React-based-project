@@ -1,0 +1,43 @@
+html{
+    scroll-behavior:smooth;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#ffffff;
+    color:#1f2937;
+    overflow-x:hidden;
+}
+
+#root{
+    width:100%;
+    min-height:100vh;
+}
+
+.container{
+    width:min(95%,1400px);
+    margin:0 auto;
+    padding:0 20px;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+a{
+    text-decoration:none;
+}
+
+button,
+input,
+textarea,
+select{
+    font:inherit;
+}

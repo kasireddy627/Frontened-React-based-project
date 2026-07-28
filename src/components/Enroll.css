@@ -1,0 +1,47 @@
+.enroll{
+    padding:70px 0px;
+    background:#f8fafc;
+}
+
+.enroll-form{
+    max-width:750px;
+    margin:0 auto;
+    display:grid;
+    gap:20px;
+}
+
+.enroll-form input,
+.enroll-form select,
+.enroll-form textarea{
+    width:100%;
+    padding:16px 18px;
+    font-size:16px;
+    border:1px solid #d1d5db;
+    border-radius:10px;
+    outline:none;
+    transition:.3s;
+    font-family:inherit;
+}
+
+.enroll-form input:focus,
+.enroll-form select:focus,
+.enroll-form textarea:focus{
+    border-color:#2563eb;
+    box-shadow:0 0 0 3px rgba(37,99,235,.15);
+}
+
+.enroll-form textarea{
+    resize:vertical;
+}
+
+.enroll-form button{
+    justify-self:start;
+}
+
+@media(max-width:768px){
+
+    .enroll-form button{
+        width:100%;
+    }
+
+}
