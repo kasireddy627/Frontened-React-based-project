@@ -73,19 +73,19 @@ function Courses() {
 
               <h3>{course.title}</h3>
 
-              <div className="course-price">
-                {course.price}
-              </div>
-
               <ul>
 
                 {course.features.map((feature, i) => (
                   <li key={i}>
-                    ✓ {feature}
+                    {feature}
                   </li>
                 ))}
 
               </ul>
+
+              <div className="course-price">
+                {course.price}
+              </div>
 
               <a href="#enroll" className="btn btn-primary">
                 Enroll Now
