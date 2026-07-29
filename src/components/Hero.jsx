@@ -34,19 +34,19 @@ function Hero() {
             <div className="stat">
               <h2>4</h2>
               <span>Courses</span>
-              <span>Learning by doing</span>
+              <p>Learning by doing</p>
             </div>
 
             <div className="stat">
               <h2>Live</h2>
               <span>Interactive Classes</span>
-              <span>Project Driven Curriculum</span>
+              <p>Project Driven Curriculum</p>
             </div>
 
             <div className="stat">
               <h2>100%</h2>
               <span>Project Based Learning</span>
-              <span>Real-World-Applications</span>
+              <p>Real-World-Applications</p>
             </div>
 
           </div>
