@@ -57,6 +57,15 @@
 .stat h2{
     color:#2563eb;
     margin-bottom:5px;
+    text-align: center;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  text-align: center;
 }
 
 .stat span{
